@@ -8,7 +8,8 @@ h1 {
 header {
     width: 100%;
     height: 100vh;
-    background-color: wheat;
+    background-image: url(https://pictures.s3.yandex.net/frontend-developer/free-course/cover.jpg);
+    color: white;
 }
 
 h1 {
