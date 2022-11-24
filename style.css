@@ -1,6 +1,13 @@
 body,
-h1 {
+h1,
+h2,
+h3,
+h4,
+p,
+a {
     margin: 0;
+    font-size: 100%;
+    font-weight: normal;
 }
 
 body {
@@ -33,4 +40,13 @@ h1 {
 .card {
     width: 350px;
     background-color: #e3f3ff;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card-text {
+    font-size: 16px;
 }
