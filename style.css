@@ -40,13 +40,28 @@ h1 {
 .card {
     width: 350px;
     background-color: #e3f3ff;
+    margin-bottom: 60px;
+    /* padding-top: 45px;
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-bottom: 70px;
+
+    write short hand below  */
+
+    padding: 45px 45px 70px;
 }
 
 .card-title {
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .card-text {
     font-size: 16px;
+}
+
+.card-image {
+    width: 100%;
+    margin-bottom: 25px;
 }
