@@ -10,6 +10,12 @@ a {
     font-weight: normal;
 }
 
+* {
+    box-sizing: border-box;
+
+}
+
+
 body {
     font-family: "Inter", sans-serif;
     /* This code will set "Inter" as the font for the entire page. If that font can't be loaded for whatever reason, the browser will revert to using its default sans-serif */
@@ -37,9 +43,14 @@ h1 {
     background-color: rgba(0, 0, 0, .5);
 }
 
+.content {
+    font-size: 0;
+    width: 790px;
+    margin: 0 auto 0;
+}
+
 .card {
     width: 350px;
-    background-color: #e3f3ff;
     margin-bottom: 60px;
     /* padding-top: 45px;
     padding-right: 45px;
@@ -49,6 +60,12 @@ h1 {
     write short hand below  */
     padding: 45px 45px 70px;
     border: 2px solid rgba(250, 50, 50, .4);
+    display: inline-block;
+    margin-right: 90px;
+}
+
+.no-right-margin {
+    margin-right: 0;
 }
 
 .card-title {
