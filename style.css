@@ -52,16 +52,10 @@ h1 {
 .card {
     width: 350px;
     margin-bottom: 60px;
-    /* padding-top: 45px;
-    padding-right: 45px;
-    padding-left: 45px;
-    padding-bottom: 70px;
-
-    write short hand below  */
     padding: 45px 45px 70px;
-    border: 2px solid rgba(250, 50, 50, .4);
     display: inline-block;
     margin-right: 90px;
+    box-shadow: 4px 4px 5px rgba(250, 50, 50, .4);
 }
 
 .no-right-margin {
